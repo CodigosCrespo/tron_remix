@@ -1,0 +1,8 @@
+#board { /*make responsive later*/
+  height: 400px;
+  widows: 400px;
+  background-color: #fff;
+}
+#cycles { /*ctor*/
+  background-color: #000; /*cycle1/2/3/4 will have neon juxtaposed*/
+}
