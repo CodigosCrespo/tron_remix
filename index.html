@@ -16,18 +16,19 @@ latest base emmet: main#board>(ul.row$>(li.point$)*9)*9^(aside.capture-counter$)
 <body>
 
 <main>
-<!-- emmet: #grid>(ul.col$>(li.row$)*10)*10 -->
-<!-- considering a self-populating JS board... easier to connect to other events -->
-<div class="logo"><img src='assets/images/TRON_Wiki_commons.png' alt='Tron Logo'/></div>
-<div id="grid"></div>
+<div class="header">
+<img src='assets/images/TRON_Wiki_commons.png' alt='Tron Logo'/>
+</div>
+<canvas id="grid">
+  <img src="assets/images/update_browser.png" alt="Please update your browser to render the canvas" />
+</canvas>
 
-<!-- emmet:  -->
+
+
 <div id="info">
   <p class="objective"><span class='noth3'>Objective:</span><br/>Ride your <span class="emph">lightCycle</span> and leave a deadly trail of <span class="emph">jetWall</span>. <br/>Steer to avoid crashing into walls and your opponent's <span class="emph">jetWall</span>.<br/>Navigate <span class="emph">theGrid</span> with your directional keys<!-- and don't forget to ration your boost-->. </p>
   <p class="controls2"><span class='noth3'>Boost:</span><br/>Player 1 - LShift or R <br/>Player 2 - RShift or P</p>
   <p class="controls1"><span class='noth3'>Steering:</span><br/>Player 1 - W, A, S, D <br/>Player 2 - I, J, K, L</p>
-
-
 </div>
 
 </main>
@@ -35,6 +36,10 @@ latest base emmet: main#board>(ul.row$>(li.point$)*9)*9^(aside.capture-counter$)
 
 <!-- emmet: footer>h3{Fun Links}+ul.links>(li[src=''])*6 -->
 <footer>
+<div class="iframe-wrapper">
+<h2>Tron Remix Experience</h2>
+<iframe id="iframe" src="https://embed.spotify.com/?uri=spotify%3Auser%3A12130847339%3Aplaylist%3A30aeAsrhrPfTlNOV85OJXV" frameborder="0" allowtransparency="true"></iframe>
+</div>
   <div class="wrapper">
   <h2>About Tron</h2>
   <p class="about">Gibberipsum jandsjan f alf ldj lkwjd qjd qdjl; dalkjs fasflk eicle. lef .a;c. alivli; ase. ajksdn ajksdnask ldladkn ad klndkd lak ja;efjo;iafj / onfjk snflk nf. lkajd ioewjlifailuhf ark.hl iaurhk. laeri keu.l vshuk .vh lsk.hv su.khv sklvhn taluhn ;g nipulghs luvh ensiulg nariulnerk hniplni; h;.</p>

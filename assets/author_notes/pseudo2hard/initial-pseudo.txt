@@ -2,7 +2,9 @@
 ### MVP Theories
 ###### MVP Stage 1:
 [x] create a stage/board/`grid`
-[] create outer 'walls' that will provide collision logic
+[] JS logic for initial start position
+[] JS logic for movement & updating coordinates to browser
+[] create 'walls' & obstructions that will provide collision logic
 [] create a 'lightCycle' to represent player1.
 [] have static momentum projecting it across the field
 
@@ -55,6 +57,11 @@ _________________________________________
 The board is a grid consisting of initial states of 0.
 As the cycle passes through (live coords), it creates a trailing wall, 1 or 2.
 Cycles cannot pass through 1 or 2, only 0.
+Board will set initial cycle positions in addition to directional start
+
+The bike will have the logic for collision
+
+Coordinates will determine position on screen
 */
 _________________________________________
 -----------------------------------------

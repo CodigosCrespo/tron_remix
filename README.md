@@ -45,6 +45,7 @@ Hello, my name is...
 #### Inspiration & References
 [Flash Tron - Play original FlTron & Variations!](http://www.fltron.com/)
 One of the most long-lived light-cycle games out there - mainly for its trash-talking babes in storied progression.
+[Snake in HTML5 & JS](https://youtu.be/4tkixl4Bt3I)
 [Visual Designer of FlashTron](http://mefuzzy.com/)
 [MVP Goals](https://scratch.mit.edu/projects/2596752/#editor)
 [Pro Gamer Tips](http://www.flash-cycle.com/tips/)
