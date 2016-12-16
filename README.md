@@ -3,7 +3,7 @@ Tron remix of the classic arcade game. Built with JS, jQuery, HTML, CSS.
 
 ##### Control a light cycle and try to make your opponent crash into a wall before you do. Use the arrow keys to move and press enter for turbo.
 
-![Screenshot of initial grid on frontside](assets/initial-grid.png)
+![Screenshot of initial grid on frontside](assets/images/initial-grid.png)
 
 ### Technologies Used
 - html
