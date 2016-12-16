@@ -1,15 +1,3 @@
-/* app.js holds all the js pieces together? -> can */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
