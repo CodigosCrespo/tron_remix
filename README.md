@@ -48,3 +48,4 @@ One of the most long-lived light-cycle games out there - mainly for its trash-ta
 [Visual Designer of FlashTron](http://mefuzzy.com/)
 [MVP Goals](https://scratch.mit.edu/projects/2596752/#editor)
 [Pro Gamer Tips](http://www.flash-cycle.com/tips/)
+[Cyberpunk Culture](https://en.wikipedia.org/wiki/Cyberpunk)

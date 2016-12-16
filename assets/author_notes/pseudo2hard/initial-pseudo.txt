@@ -1,27 +1,27 @@
 # Initial Pseudo
 ### MVP Theories
 ###### MVP Stage 1:
-- create a stage/board/`grid`
-- create outer 'walls' that will provide collision logic
-- create a 'lightCycle' to represent player1.
-- have static momentum projecting it across the field
+[x] create a stage/board/`grid`
+[] create outer 'walls' that will provide collision logic
+[] create a 'lightCycle' to represent player1.
+[] have static momentum projecting it across the field
 
 ###### MVP Stage 2:
-- addEventListener for `lightCycle` steering
-- have lightCycle create a `jetWall` with collision logic
+[] addEventListener for `lightCycle` steering
+[] have lightCycle create a `jetWall` with collision logic
   - `jetWalls` do not have to follow the `lightCycle` like in 'snake'
   - `jetWalls` left as a permanent and separate object
   - `jetWalls` can be a single pixel wide in theory
-- addEventListener to alert players of a winner
+[] addEventListener to alert players of a winner
 
 ###### MVP Stage 3:
 - Celebrate and get inspiration watching [Tron & Tron Legacy](http://www.cinemablend.com/new/Tron-Legacy-Explained-Or-What-Newcomers-Need-Know-They-Go-22262.html)
-- CSS the SHIT OUT OF THIS THING
-- Slap in a bunch of gifs/jpgs of Tron & Tron Legacy into README.md
-- Work on the next steps moving forward
-- Add a second `lightCycle` tied to arrow up/right/down/left
-- Have a `boost()` `lightCycle` method to increase momentum for a short period
-- Option to remove walls
+[] CSS the SHIT OUT OF THIS THING
+[] Slap in a bunch of gifs/jpgs of Tron & Tron Legacy into README.md
+[] Work on the next steps moving forward
+[] Add a second `lightCycle` tied to arrow up/right/down/left
+[] Have a `boost()` `lightCycle` method to increase momentum for a short period
+[] Option to remove walls
 
 ###### To add/polish:
 - phone render, swipe to move, network live with 2nd player!
@@ -52,10 +52,20 @@ _________________________________________
 -----------------------------------------
   js:
   /* Pseudo
-board is a grid consisting of initial states of 0
-as the cycle passes through (live coords), it creates a trailing wall, 1 or 2
-cycles cannot pass through 1 or 2, only 0.
+The board is a grid consisting of initial states of 0.
+As the cycle passes through (live coords), it creates a trailing wall, 1 or 2.
+Cycles cannot pass through 1 or 2, only 0.
 */
 _________________________________________
 -----------------------------------------
+  references:
+Game Architecture and Logic
+
+Object-oriented - classes are made for `bike`, `board`, `coord`, and `view`.
+
+The `view` renders the board and listens for key events in the browser. The board grid is constructed using `ul` and `li` tags. Each time the board is rendered, the CSS class selector of each `li` item is updated using jQuery to reflect the position of the bikes.
+
+The `board` class takes dimensions as arguments and checks if coordinates are within its boundaries.
+
+The `bike` holds the logic for turns, collisions, and the AI of the computer player.
 
