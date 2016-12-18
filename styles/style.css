@@ -11,16 +11,50 @@ main { /*make responsive later*/
 
 .header {
   padding: 10px;
+  padding-top: 20px;
   margin: 0 auto;
-  max-width: 340px;
+  max-width: 460px;
 }
 
 img {
   width: 300px;
 }
 
+.header h1 {
+  font-family: 'Permanent Marker', cursive;
+  display: inline;
+  font-size: 2.5em;
+  margin-left: 2%;
+}
+/*fix below..so hacky*/
+.flicker1 {
+  margin: 0;
+  padding: 0;
+  animation: flicker 2s steps(2, start) infinite;
+}
+.flicker2 {
+  margin: 0;
+  padding: 0;
+  animation: flicker 7s steps(2, start) infinite;
+}
+.flicker3 {
+  margin: 0;
+  padding: 0;
+  animation: flicker 10s steps(2, start) infinite;
+}
+.flicker4 {
+  margin: 0;
+  padding: 0;
+  animation: flicker 6s steps(2, start) infinite;
+}
+
+@keyframes flicker {
+to { color: #4FD1F8; } /*tron logo aqua*/
+
+}
+
 #grid {
-  border: 1px dashed #00F600; /*lime for neon fill*/
+  border: 1px solid #00F600; /*lime for neon fill*/
   width: 70%; /* 300px canvas default, may be distorted */
   height: 60%; /* 150px canvas default, may be distorted */
   /* MDN Note: If your renderings seem distorted, try specifying your width and height attributes explicitly in the <canvas> attributes, and not using CSS. */
@@ -54,9 +88,10 @@ img {
   /*background-color: grey;*/
 }
 
-.noth3 { /* span, since headers are breaking flow atm */
-  font-size: 1.3em;
-  color: #EF0000; /*red for bold juxtaposition*/
+.h3 { /* span, since headers are breaking flow atm */
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.4em;
+  color: #00F600; /*lime for neon fill*/
 }
 
 .emph { /* span for info emphasis */
@@ -82,6 +117,7 @@ footer {
   border: 1px solid #673AB7; /*purple for neon balance*/
 }
 .iframe-wrapper h2 {
+  font-family: 'Permanent Marker', cursive;
   text-align: center;
   color: #673AB7; /*purple for neon balance*/
 }

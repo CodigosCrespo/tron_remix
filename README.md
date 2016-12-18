@@ -8,8 +8,7 @@ Tron remix of the classic arcade game. Built with JS, jQuery, HTML, CSS.
 ### Technologies Used
 - html
 - css
-- javascript
-- blood, sweat and internal-tears (human tech)
+- JS/jQuery
 
 ### Code Example
 ```javascript
@@ -31,9 +30,8 @@ Tron remix of the classic arcade game. Built with JS, jQuery, HTML, CSS.
 4. Add in as many neons lasers as possible
 
 ### Contributing
-Momajd, who showed me this was actually *possible* with a limited tech stack.
-Shoutout to and [GA](generalassemb.ly) and my amazing ILs, IAs and TAs for being the angels/devils on my shoulders. 
-Shoutout to the Arbiter for being the best-practice-coder-voice in my head.
+Shoutout to the voices in my head, Vince/Patrick/Joe/Paris/Kate/Ariana/Alison. Momajd for being the tempting yet resistable devil on my shoulder. 
+
 ### Complications/Future Improvements
 Complications/Challenges/Handicaps: 
 - Minimal to no use of libraries
@@ -43,10 +41,10 @@ Future Improvements:
 ### Authors
 Hello, my name is...
 #### Inspiration & References
-[Flash Tron - Play original FlTron & Variations!](http://www.fltron.com/)
-One of the most long-lived light-cycle games out there - mainly for its trash-talking babes in storied progression.
-[Snake in HTML5 & JS](https://youtu.be/4tkixl4Bt3I)
-[Visual Designer of FlashTron](http://mefuzzy.com/)
-[MVP Goals](https://scratch.mit.edu/projects/2596752/#editor)
-[Pro Gamer Tips](http://www.flash-cycle.com/tips/)
-[Cyberpunk Culture](https://en.wikipedia.org/wiki/Cyberpunk)
+- [Adam Khoury Canvas Bootcamp](https://www.youtube.com/watch?v=bCYz_N6BIPw&list=PLlkGN-8wjPHWYT_00xdUibDPfHZ3Zm8i3)
+Clear and concise intro to the rabbit hole that is Canvas.
+- [Flash Tron - Play original FlTron & Variations!](http://www.fltron.com/)
+WebDev dreams of reaching this technical skill level.
+- [Visual Designer of FlashTron](http://mefuzzy.com/)
+- [Tron MVP Goals](https://scratch.mit.edu/projects/2596752/#editor)
+- [Snake Tutorial in HTML5 & JS](https://youtu.be/4tkixl4Bt3I)
