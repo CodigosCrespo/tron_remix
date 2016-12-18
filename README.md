@@ -6,7 +6,7 @@ Tron remix of the classic arcade game. Built with JS, jQuery, HTML, CSS.
 ![Screenshot of initial grid on frontside](assets/images/initial-grid.png)
 
 ### Technologies Used
-- html
+- html/canvas
 - css
 - JS/jQuery
 
@@ -30,7 +30,7 @@ Tron remix of the classic arcade game. Built with JS, jQuery, HTML, CSS.
 4. Add in as many neons lasers as possible
 
 ### Contributing
-Shoutout to the voices in my head: Vince/Patrick/Joe/Paris/Kate/Ariana/Alison.
+Excellent input from my peers and instructors.
 
 ### Complications/Future Improvements
 Complications/Challenges/Handicaps: 
