@@ -105,7 +105,7 @@ to { color: #4FD1F8; } /*tron logo aqua*/
 footer {
   margin: 0 auto;
   width: 90%;
-  color: #F2F100; /*yellow for bold juxtaposition*/
+  color: #8A02FE; /*purple for neon balance*/
   padding: 0 7px;
   margin-top: 10px;
 }
@@ -127,13 +127,11 @@ footer {
   height: 300px;
 }
 
-a {
-  text-decoration: none;
-  color: #FF0095; /*pink for neon balance*/
+a, footer p {
+  color: #F2F100; /*yellow for bold juxtaposition*/
 }
 
 a:hover {
-  text-decoration: underline;
   color: #8A02FE; /*purple for neon balance*/
 
 /*
