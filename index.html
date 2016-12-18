@@ -14,14 +14,22 @@
 <main>
 <div class="header">
 <img src='assets/images/TRON_Wiki_commons.png' alt='Tron Logo'/>
-<h1><span class="flicker1">.</span><span class="flicker2">.</span><span class="flicker4">.</span>.<span class="flicker3">re</span><span class="flicker1">m</span><span class="flicker2">ix</span></h1>
+<h1><span class="flicker1">.</span><span class="flicker2">.</span><span class="flicker3">.</span>.<span class="flicker4">re</span><span class="flicker1">m</span><span class="flicker2">ix</span></h1>
 </div>
 <canvas id="grid">
+  <!-- h:756/w:480 css may get distorted, hard code h/w here as last resort -->
   <img src="assets/images/update_browser.png" alt="Please update your browser to render the canvas" />
 </canvas>
 
+<div class="button-wrapper">
+  <button id="left_btn">Move Left</button>
+  <button id="right_btn">Move Right</button>
+  <button id="up_btn">Move Up</button>
+  <button id="down_btn">Move Down</button>
+  </div>
+
 <div id="info">
-  <p class="objective"><span class='h3'>Objective:</span><br/>Ride your <span class="emph">lightCycle</span> and leave a deadly trail of <span class="emph">jetWall</span>. <br/>Steer to avoid crashing into walls and your opponent's <span class="emph">jetWall</span>.<br/>Navigate <span class="emph">theGrid</span> with your directional keys. <br/>Don't forget to ration your <span class="emph">boost</span>.</p>
+  <p class="objective"><span class='h3'>Objective:</span><br/>Ride your <span class="emph">lightCycle</span> and leave a deadly trail of <span class="emph">lightWall</span>. <br/>Steer to avoid crashing into walls and your opponent's <span class="emph">lightWall</span>.<br/>Navigate <span class="emph">theGrid</span> with your directional keys. <br/>Don't forget to ration your <span class="emph">boost</span>.</p>
   <p class="controls2"><span class='h3'>Boost:</span><br/>Player 1 - LShift or R <br/>Player 2 - RShift or P</p>
   <p class="controls1"><span class='h3'>Steering:</span><br/>Player 1 - W, A, S, D <br/>Player 2 - I, J, K, L</p>
 </div>
@@ -30,13 +38,14 @@
 <footer>
 <div class="iframe-wrapper">
 <h2>Tron Remix Experience</h2>
+<p>(only works if you have Spotify)</p>
 <iframe id="iframe" src="https://embed.spotify.com/?uri=spotify%3Auser%3A12130847339%3Aplaylist%3A30aeAsrhrPfTlNOV85OJXV" frameborder="0" allowtransparency="true"></iframe>
 </div>
   <div class="wrapper">
   <h2>About Tron</h2>
   <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae eros dignissim, pharetra ante ac, venenatis sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec neque elit, mollis ornare enim non, ultricies venenatis nulla. Ut consectetur odio quis nisl eleifend feugiat. Nunc vel ex efficitur, consequat massa at, ultricies odio. Nam posuere molestie orci, eget sodales ex condimentum sit amet. Suspendisse potenti. Sed egestas pellentesque metus imperdiet ultrices. Phasellus posuere augue in facilisis vestibulum. Fusce pellentesque purus id sem maximus mollis. Vestibulum ut tristique tortor. Nunc volutpat porta dui. Aliquam vitae sagittis libero. Praesent aliquam venenatis risus, et eleifend nunc faucibus id.
 
-Aenean sodales lacinia elit nec tincidunt. Suspendisse potenti. Maecenas mattis leo eget turpis facilisis, quis varius nulla aliquam. Vivamus gravida, eros id dapibus sollicitudin, metus odio viverra eros, eu viverra magna diam in nunc. Suspendisse potenti. Suspendisse porta neque a sem imperdiet feugiat. Cras eget sapien luctus, consequat purus sit amet, vulputate quam. Curabitur posuere ante in enim molestie, ac aliquam arcu consectetur.</p>
+  Aenean sodales lacinia elit nec tincidunt. Suspendisse potenti. Maecenas mattis leo eget turpis facilisis, quis varius nulla aliquam. Vivamus gravida, eros id dapibus sollicitudin, metus odio viverra eros, eu viverra magna diam in nunc. Suspendisse potenti. Suspendisse porta neque a sem imperdiet feugiat. Cras eget sapien luctus, consequat purus sit amet, vulputate quam. Curabitur posuere ante in enim molestie, ac aliquam arcu consectetur.</p>
   <h2>Fun Links</h2>
   <ul class="links">
     <li><a href="http://www.flash-cycle.com/tips/">Tron Tips</a></li>
