@@ -49,4 +49,4 @@ Hello, my name is...
 - [Tron MVP Goals](https://scratch.mit.edu/projects/2596752/#editor)
 - [Snake Tutorial in HTML5 & JS](https://youtu.be/4tkixl4Bt3I)
 - [Momajd](github.com)
-    -For being the tempting yet resistable devil on my shoulder.
+    - For being the tempting yet resistable devil on my shoulder.
