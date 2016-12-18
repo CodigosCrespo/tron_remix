@@ -22,15 +22,15 @@ Tron remix of the classic arcade game. Built with JS, jQuery, HTML, CSS.
     - Hi-Fi Wireframe
     - Daydream about cyberpunks and neon laser beams
 3. Hard Code
-    a. Work on MVP's unstyled elements
-    b. Create win-state logic
-    c. CSS 
-        - Create initial board state
-        - Transition pieces
+    - Work on MVP's unstyled elements
+    - Create win-state logic
+    - CSS 
+    - Create initial board state
+    - Transition pieces
 4. Add in as many neons lasers as possible
 
 ### Contributing
-Shoutout to the voices in my head, Vince/Patrick/Joe/Paris/Kate/Ariana/Alison. Momajd for being the tempting yet resistable devil on my shoulder. 
+Shoutout to the voices in my head: Vince/Patrick/Joe/Paris/Kate/Ariana/Alison.
 
 ### Complications/Future Improvements
 Complications/Challenges/Handicaps: 
@@ -42,9 +42,11 @@ Future Improvements:
 Hello, my name is...
 #### Inspiration & References
 - [Adam Khoury Canvas Bootcamp](https://www.youtube.com/watch?v=bCYz_N6BIPw&list=PLlkGN-8wjPHWYT_00xdUibDPfHZ3Zm8i3)
-Clear and concise intro to the rabbit hole that is Canvas.
+    - Clear and concise intro to the rabbit hole that is Canvas.
 - [Flash Tron - Play original FlTron & Variations!](http://www.fltron.com/)
-WebDev dreams of reaching this technical skill level.
+    - WebDev dreams of reaching this technical skill level.
 - [Visual Designer of FlashTron](http://mefuzzy.com/)
 - [Tron MVP Goals](https://scratch.mit.edu/projects/2596752/#editor)
 - [Snake Tutorial in HTML5 & JS](https://youtu.be/4tkixl4Bt3I)
+- [Momajd](github.com)
+    -For being the tempting yet resistable devil on my shoulder.
