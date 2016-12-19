@@ -6,35 +6,25 @@ Tron remix of the classic arcade game. Built with JS, jQuery, HTML, CSS.
 ![Screenshot of initial grid on frontside](assets/images/initial-grid.png)
 
 ### Technologies Used
-- html/canvas
+- html
 - css
-- JS/jQuery
+- js
 
 ### Code Example
 ```javascript
-// js here
+function animate(){ 
+    ctx.save(); 
+    ctx.fillStyle = '#0079D3';
+    ctx.fillRect(x, y, 5, 4);
+    ctx.restore; 
+  }
+  const animateInterval = setInterval(animate, 30); 
 ```
-### Build Strategy
-1. Pseudo so hard
-    - Lo-Fi Wireframe
-    - Find MVP
-2. Pseudo so good
-    - Hi-Fi Wireframe
-    - Daydream about cyberpunks and neon laser beams
-3. Hard Code
-    - Work on MVP's unstyled elements
-    - Create win-state logic
-    - CSS 
-    - Create initial board state
-    - Transition pieces
-4. Add in as many neons lasers as possible
-
-### Contributing
-Excellent input from my peers and instructors.
-
 ### Complications/Future Improvements
 Complications/Challenges/Handicaps: 
-- Minimal to no use of libraries
+- Kept confusing vanilla js with jquery.
+- Currently unable to wrap my head around scope and connecting js to everything
+- Should have devoted more time to Canvas, rather than hesitating to use it
 Future Improvements: 
 - Many, will add later.
 
@@ -45,8 +35,3 @@ Hello, my name is...
     - Clear and concise intro to the rabbit hole that is Canvas.
 - [Flash Tron - Play original FlTron & Variations!](http://www.fltron.com/)
     - WebDev dreams of reaching this technical skill level.
-- [Visual Designer of FlashTron](http://mefuzzy.com/)
-- [Tron MVP Goals](https://scratch.mit.edu/projects/2596752/#editor)
-- [Snake Tutorial in HTML5 & JS](https://youtu.be/4tkixl4Bt3I)
-- [Momajd](github.com)
-    - For being the tempting yet resistable devil on my shoulder.

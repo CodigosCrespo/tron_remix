@@ -27,7 +27,7 @@ img {
   margin-left: 2%;
 }
 #grid {
-  background-color: white; /* until mvp works */
+  /* background-color: white; / * until mvp works * / */
   border: 1px solid #00F600; /*lime for neon fill*/
   height: 480px; /* 150px canvas default, so may be distorted 60%/h:480px */
   width: 756px; /* 300px canvas default, so may be distorted 70%/w:756px */
