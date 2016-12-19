@@ -3,7 +3,6 @@ function initCanvas() { // anything i need to do on canvas goes in here
   const cW = ctx.canvas.width, cH = ctx.canvas.height; // easy access
   // initial positioning
   let y = 50, x = 50;
-  // let curDir = x++; // initial trajectory of poorman's hacky lightCycle
 
   let lastKey = null; // setting initial trajectory, below
   $(document).keydown(function(e) {
@@ -22,7 +21,7 @@ function initCanvas() { // anything i need to do on canvas goes in here
     }
   });
 
-/*
+/* Pseudo & Reference:
 if W is pressed, lastKey = turnUp
 if A is pressed, lastKey = turnLeft
 if S is pressed, lastKey = turnDown
@@ -32,6 +31,7 @@ left: [37, 65], // left-arrow, A
 down: [40, 83], // down-arrow, S
 right: [39, 68], // right-arrow, D
 start_game: [13, 32] // enter, spacebar
+// e.preventDefault(); // for when spacebar reset & arrow keys are added
 */
 
   function animate(){

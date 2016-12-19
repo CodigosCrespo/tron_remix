@@ -36,11 +36,6 @@ img {
   display: block;
 }
 
-.button-wrapper {
-  width: 300px;
-  margin: 0 auto;
-}
-
 /*fix below..so hacky*/
 .flicker1 {
   margin: 0;
@@ -78,23 +73,17 @@ to { color: #4FD1F8; } /*tron logo aqua*/
   width: 50%;
   padding: 0 10px;
   float: left;
-  margin-top: 0;
-  /*background-color: grey;*/
 }
 
 .controls2 { /*boost*/
   padding: 0 10px;
   float: right;
-  margin-top: 0;
-  /*background-color: grey;*/
 }
 
 .controls1 { /*Steering*/
   margin-right: 5%;
   padding: 0 10px;
   float: right;
-  margin-top: 0;
-  /*background-color: grey;*/
 }
 
 .h3 { /* span, since headers are breaking flow atm */
