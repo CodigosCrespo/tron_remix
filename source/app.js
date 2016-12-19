@@ -8,16 +8,36 @@ function initCanvas() { // anything i need to do on canvas goes in here
 
   // variables to turn on event
   let lastKey = null;
-  // let turnUp = //W triggers and binds var to lastKey //y--;
-  // let turnLeft = //A triggers and binds var to lastKey //x--;
-  // let turnDown = //S triggers and binds var to lastKey //y++;
-  // let turnRight = //D triggers and binds var to lastKey //x++;
-  // eventlisteners to trigger turn variables
+  let turnUp; //W triggers and binds var to lastKey //y--;
+  let turnLeft; //A triggers and binds var to lastKey //x--;
+  let turnDown; //S triggers and binds var to lastKey //y++;
+  let turnRight; //D triggers and binds var to lastKey //x++;
+  $(document).keydown(function(e) {
+    if (e.which == 87){
+      console.log('pressed up')
+      lastKey = turnUp;
+    } else if (e.which == 65){
+      console.log('pressed left')
+      lastKey = turnLeft;
+    } else if (e.which == 83){
+      console.log('pressed down')
+      lastKey = turnDown;
+    } else if (e.which == 68){
+      console.log('pressed right')
+      lastKey = turnRight;
+    }
+  });
+
 /*
 if W is pressed, lastKey = turnUp
 if A is pressed, lastKey = turnLeft
 if S is pressed, lastKey = turnDown
 if D is pressed, lastKey = turnRight
+up: [38, 87], // up-arrow, W
+left: [37, 65], // left-arrow, A
+down: [40, 83], // down-arrow, S
+right: [39, 68], // right-arrow, D
+start_game: [13, 32] // enter, spacebar
 */
 
 
