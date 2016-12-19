@@ -8,10 +8,10 @@ function initCanvas() { // anything i need to do on canvas goes in here
 
   // variables to turn on event
   let lastKey = null;
-  let turnUp = y--;
-  let turnLeft = x--;
-  let turnDown = y++;
-  let turnRight = x++;
+  // let turnUp = //W triggers and binds var to lastKey //y--;
+  // let turnLeft = //A triggers and binds var to lastKey //x--;
+  // let turnDown = //S triggers and binds var to lastKey //y++;
+  // let turnRight = //D triggers and binds var to lastKey //x++;
   // eventlisteners to trigger turn variables
 /*
 if W is pressed, lastKey = turnUp
@@ -31,8 +31,14 @@ if D is pressed, lastKey = turnRight
     /*draw above*/
     if (lastKey === null){
       x++;
-    } else if (lastKey === ){
-      let lastKey = turnUp;
+    } else if (lastKey === turnUp){
+      y--;
+    } else if (lastKey === turnLeft){
+      x--;
+    } else if (lastKey === turnDown){
+      y++;
+    } else if (lastKey === turnRight){
+      x++;
     }
     // if (x == 50){ // when game starts,
     //   let moveX = 0; // set initial trajectory
