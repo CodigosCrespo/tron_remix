@@ -1,31 +1,26 @@
 function initCanvas() { // anything i need to do on canvas goes in here
     const ctx = document.getElementById('grid').getContext('2d'); /*756x480*/ // compresses the two variables context and canvas into one var.. will have to experiment to see how effective this works at my level
     const cW = ctx.canvas.width,
-        cH = ctx.canvas.height; // easy access
-    // initial positioning
-    let y = 50,
+          cH = ctx.canvas.height; // easy access
+    let y = 50, // initial positioning
         x = 50; //hard coded. fix when other cycles are added.. 1-4? ai?
 
     let lastKey = null; // setting initial trajectory, below
     $(document).keydown(function(e) {
         if (e.which == 87) {
-            console.log('pressed up');
-            lastKey = e.which;
+            lastKey = e.which; // console.log('pressed up');
         } else if (e.which == 65) {
-            console.log('pressed left');
-            lastKey = e.which;
+            lastKey = e.which; // console.log('pressed left');
         } else if (e.which == 83) {
-            console.log('pressed down');
-            lastKey = e.which;
+            lastKey = e.which; // console.log('pressed down');
         } else if (e.which == 68) {
-            console.log('pressed right');
-            lastKey = e.which;
+            lastKey = e.which; // console.log('pressed right');
         }
     });
 
     drawCycle = () => {
         ctx.fillStyle = '#0079D3';
-        let start = ctx.fillRect(x, y, 5, 4); //start @ xpixel/ypixel, draw 5pxwide/4pxhigh
+        let start = ctx.fillRect(x, y, 6, 6); //start @ xpixel/ypixel, draw 5pxwide/4pxhigh
         // add collision detection here
     }
 

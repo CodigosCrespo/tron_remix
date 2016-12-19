@@ -29,8 +29,8 @@ img {
 #grid {
   /* background-color: white; / * until mvp works * / */
   border: 1px solid #00F600; /*lime for neon fill*/
-  height: 480px; /* 150px canvas default, so may be distorted 60%/h:480px */
-  width: 756px; /* 300px canvas default, so may be distorted 70%/w:756px */
+  height: 450px; /* 150px canvas default, so may be distorted 60%/h:480px */
+  width: 900px; /* 300px canvas default, so may be distorted 70%/w:756px */
   /* MDN Note: If your renderings seem distorted, try specifying your width and height attributes explicitly in the <canvas> attributes, and not using CSS. */
   margin: 10px auto;
   display: block;
