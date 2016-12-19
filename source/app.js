@@ -8,25 +8,52 @@ function initCanvas() { // anything i need to do on canvas goes in here
 
   // variables to turn on event
   let lastKey = null;
-  let turnUp; //W triggers and binds var to lastKey //y--;
-  let turnLeft; //A triggers and binds var to lastKey //x--;
-  let turnDown; //S triggers and binds var to lastKey //y++;
-  let turnRight; //D triggers and binds var to lastKey //x++;
   $(document).keydown(function(e) {
     if (e.which == 87){
-      console.log('pressed up')
-      lastKey = turnUp;
+      console.log('pressed up');
+      lastKey = e.which;
     } else if (e.which == 65){
-      console.log('pressed left')
-      lastKey = turnLeft;
+      console.log('pressed left');
+      lastKey = e.which;
     } else if (e.which == 83){
-      console.log('pressed down')
-      lastKey = turnDown;
+      console.log('pressed down');
+      lastKey = e.which;
     } else if (e.which == 68){
-      console.log('pressed right')
-      lastKey = turnRight;
+      console.log('pressed right');
+      lastKey = e.which;
     }
   });
+
+/*
+  $(document).keydown(function(e) {
+    if (e.which === 87){
+      console.log('pressed up')
+      lastKey = turnUp;
+    } else return;
+  });
+
+  $(document).keydown(function(e) {
+    if (e.which === 65){
+      console.log('pressed left');
+      lastKey = turnLeft;
+    } else return;
+  });
+
+  $(document).keydown(function(e) {
+    if (e.which === 83){
+      console.log('pressed down');
+      lastKey = turnDown;
+    } else return;
+  });
+
+  $(document).keydown(function(e) {
+    if (e.which === 68){
+      console.log('pressed right');
+      lastKey = turnRight;
+    } else return;
+  });
+*/
+
 
 /*
 if W is pressed, lastKey = turnUp
@@ -49,26 +76,23 @@ start_game: [13, 32] // enter, spacebar
     ctx.fillStyle = '#0079D3';
     let start = ctx.fillRect(x, y, 5, 4); //start @ xpixel/ypixel, draw 5pxwide/4pxhigh
     /*draw above*/
+    let currentDir = lastKey;
     if (lastKey === null){
       x++;
-    } else if (lastKey === turnUp){
+    } else if (lastKey === 87){
       y--;
-    } else if (lastKey === turnLeft){
+    } else if (lastKey === 65){
       x--;
-    } else if (lastKey === turnDown){
+    } else if (lastKey === 83){
       y++;
-    } else if (lastKey === turnRight){
+    } else if (lastKey === 68){
       x++;
     }
     // if (x == 50){ // when game starts,
     //   let moveX = 0; // set initial trajectory
     // }
 
-
-
-
     /*logic above*/
-    ctx.restore; // may not need, returns last saved board state before clear
   }
   const animateInterval = setInterval(animate, 30); //this is what is making the animate function fire so frequently (for smoother animation)
 }
