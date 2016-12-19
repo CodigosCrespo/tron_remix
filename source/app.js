@@ -2,7 +2,7 @@ function initCanvas() { // anything i need to do on canvas goes in here
   const ctx = document.getElementById('grid').getContext('2d'); /*756x480*/ // compresses the two variables context and canvas into one var.. will have to experiment to see how effective this works at my level
   const cW = ctx.canvas.width, cH = ctx.canvas.height; // easy access
   // initial positioning
-  let y = 50, x = 50;
+  let y = 50, x = 50; //hard coded. fix when other cycles are added.. 1-4? ai?
 
   let lastKey = null; // setting initial trajectory, below
   $(document).keydown(function(e) {
@@ -34,11 +34,16 @@ start_game: [13, 32] // enter, spacebar
 // e.preventDefault(); // for when spacebar reset & arrow keys are added
 */
 
+  drawCycle = () => {
+      ctx.fillStyle = '#0079D3';
+      let start = ctx.fillRect(x, y, 5, 4); //start @ xpixel/ypixel, draw 5pxwide/4pxhigh
+      // add collision detection here
+    }
+
   function animate(){
     ctx.save();
     // draw below
-    ctx.fillStyle = '#0079D3';
-    let start = ctx.fillRect(x, y, 5, 4); //start @ xpixel/ypixel, draw 5pxwide/4pxhigh
+    drawCycle();
     // logic below
     let currentDir = lastKey;
     if (lastKey === null){
