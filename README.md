@@ -24,12 +24,13 @@ function animate(){
 Complications/Challenges/Handicaps: 
 - Kept confusing vanilla js with jquery.
 - Currently unable to wrap my head around scope and connecting js to everything
-- Should have devoted more time to Canvas, rather than hesitating to use it
+- Should have devoted more time to Canvas, rather than hesitating to use it. 
+
 Future Improvements: 
 - Many, will add later.
 
 ### Authors
-Hello, my name is...
+Myself, my very confused self.
 #### Inspiration & References
 - [Adam Khoury Canvas Bootcamp](https://www.youtube.com/watch?v=bCYz_N6BIPw&list=PLlkGN-8wjPHWYT_00xdUibDPfHZ3Zm8i3)
     - Clear and concise intro to the rabbit hole that is Canvas.
