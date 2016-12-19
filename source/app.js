@@ -1,10 +1,18 @@
 function initCanvas() { // anything i need to do on canvas goes in here
-    const ctx = document.getElementById('grid').getContext('2d'); /*756x480*/ // compresses the two variables context and canvas into one var.. will have to experiment to see how effective this works at my level
+
+    // canvas setup
+    const ctx = document.getElementById('grid').getContext('2d'); /*900x450*/
     const cW = ctx.canvas.width,
-          cH = ctx.canvas.height; // easy access
+        cH = ctx.canvas.height; // easy access
+
+    // cycle attributes below: easy convert to class
+    const cycleW = 6,
+          cycleH = 6;
     let y = 50, // initial positioning
         x = 50; //hard coded. fix when other cycles are added.. 1-4? ai?
+    // let cycleCenter = cycleW / 2;
 
+    // event handlers
     let lastKey = null; // setting initial trajectory, below
     $(document).keydown(function(e) {
         if (e.which == 87) {
@@ -18,12 +26,14 @@ function initCanvas() { // anything i need to do on canvas goes in here
         }
     });
 
+    // cycle rendering
     drawCycle = () => {
         ctx.fillStyle = '#0079D3';
-        let start = ctx.fillRect(x, y, 6, 6); //start @ xpixel/ypixel, draw 5pxwide/4pxhigh
+        ctx.fillRect(x, y, cycleW, cycleH); //
         // add collision detection here
     }
 
+    // render
     function animate() {
         ctx.save();
         // draw below
@@ -44,7 +54,7 @@ function initCanvas() { // anything i need to do on canvas goes in here
     }
     const animateInterval = setInterval(animate, 30);
 }
-
+// wait for page to load before initiating the canvas & content
 window.addEventListener('load', function(event) {
     initCanvas();
 })
